@@ -1,0 +1,463 @@
+/* BLUE: 004AAD */
+h1,h2,h3,h4,p,ul{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    /* overflow: hidden; */
+}
+
+
+@font-face{
+    font-family: 'JustMe';
+    src: url('../assets/fonts/JustMeAgainDownHere-Regular.ttf');
+    font-weight: 400;
+}
+@font-face{
+    font-family: 'LongCang';
+    src: url('../assets/fonts/LongCang-Regular.ttf');
+    font-weight: 400;
+}
+
+.max418{
+    max-width: none;
+}
+.max408{
+    max-width: none;
+    margin-left: 0;
+}
+.max349{
+    max-width: none;
+    text-align: left;
+}
+.max306{
+    max-width: none;
+}
+
+.underline{
+    text-decoration: underline;
+}
+.description .underline{
+    color: black;
+}
+.instructions .underline{
+    color: white;
+}
+
+.logo{
+    font-family: 'JustMe', sans-serif;
+    font-size: 83px;
+    line-height: 34px;
+}
+
+
+.intro{
+    background-color: #004AAD;
+    padding:0 40px;
+    position: relative;
+}
+
+.intro__logo{
+    color: white;
+    text-align: center;
+    margin-bottom: 14px;
+    line-height: 124.33px;
+}
+.intro__navigation{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 55px;
+}
+.intro__link{
+    font-family: 'JustMe', sans-serif;
+    text-decoration: none;
+    color: white;
+    width: 50%;
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 18px;
+}
+.intro__link:hover{
+    transform: scale(1.1,1.1);
+}
+.intro__link:first-child{
+    margin-left: 0;
+}
+.intro__button-wrapper{
+    margin-left: 0;
+    width: 50%;
+}
+.intro__button{
+    display: block;
+    margin: 0 auto;
+
+    width: 151px;
+    height: 77px;
+    font-family: 'JustMe', sans-serif;
+    padding: 9px 0 20px;
+    background-color: #FF0000;
+    text-align: center;
+    border: none;
+    border-radius: 16px;
+    color: white;
+    font-size: 32px;
+}
+.logo__wall-of{
+    display: none;
+}
+.intro__main{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-bottom: 90px;
+}
+
+.main__youtube{
+    width: 68px;
+    height: 53px;
+}
+
+.main__title{
+    margin-left: 15px;
+}
+
+.title__title{
+    font-family: 'JustMe', sans-serif;
+    font-size: 51px;
+    line-height: 74px;
+    color: white;
+    text-align: center;
+}
+
+.title__subtitle{
+    display: none;
+    font-family: 'JustMe', sans-serif;
+    font-size: 76px;
+    margin-left: 25px;
+    line-height: 113px;
+    text-align: center;
+    color: white;
+    margin-top: -70px;
+}
+
+.intro__links{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 24px;
+}
+
+.intro__icon{
+    width: 54px;
+    height: 54px;
+    margin-left: 28px;
+}
+.intro__icon:first-child{
+    margin-left: 0;
+}
+.intro__rectangle{
+    height: 39px;
+    max-width: 338px;
+    background-color: rgba(255, 255, 255, 0.3);
+    margin: 0 auto;
+    margin-bottom: 44px;
+    border-radius: 8px;
+}
+
+.intro__man{
+    position: absolute;
+    bottom: 245px;
+    right: 46px;
+    width: 74px;
+    height: 74px;
+    border-radius: 28px;
+    overflow: hidden;
+}
+
+.description{
+    background-color: #fff;
+    padding: 35px 0 0;
+}
+.description__image{
+    width: 134px;
+    height: 133px;
+    background-color: #004AAD;
+    border-radius: 50%;
+    overflow: hidden;
+    position: relative;
+    margin: 0 auto;
+    margin-top: 0;
+}
+.description__image img{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 125px;
+    height: 127px;
+}
+.description__info{
+    margin-left: 0;
+}
+.description__title{
+    font-family: 'JustMe', sans-serif;
+    font-size: 60px;
+    line-height: 90px;
+    text-align: center;
+}
+.description__text{
+    font-family: 'LongCang', sans-serif;
+    font-size: 25px;
+    text-align: center;
+    line-height: 25px;
+    margin-bottom: 86px;
+}
+
+.instructions{
+    background-color: #004AAD;
+    padding: 0 20px;
+    position: relative;
+    overflow-x: clip;
+}
+.instructions__list{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 43px;
+}
+.instructions__title{
+    font-family: 'JustMe', sans-serif;
+    font-size: 60px;
+    line-height: 90px;
+    color: white;
+    text-align: center;
+}
+.instruction__item{
+    margin: 0 auto;
+}
+.instruction__item.center{
+    margin: 0;
+    max-width: none;
+    text-align: left;
+    position: relative;
+    right: 0;
+    margin-top: 41px;
+    margin-bottom: 65px;
+}
+.item__title, .item__text{
+    color: white;
+}
+.item__title{
+    font-family: 'JustMe', sans-serif;
+    font-size: 38px;
+    line-height: 57px;
+    text-align: center;
+    margin-bottom: 26px;
+}
+.item__text{
+    font-family: 'LongCang', sans-serif;
+    font-size: 30px;
+    line-height: 30px;
+    width: fit-content;
+}
+.instructions__cash{
+    width: 100%;
+    height: 100%;
+}
+.instructions__img{
+    position: absolute;
+    top: 0;
+    right: 0;
+    transform: translate(160px,-80px);
+    overflow: hidden;
+    width: 247px;
+    height: 143px;
+}
+.memes{
+    background-color: #fff;
+    padding: 24px 0;
+    overflow-x: clip;
+}
+
+.memes img{
+    display: block;
+    margin: 0 auto;
+}
+#mem2, #mem3{
+    margin-bottom: 21px;
+}
+
+#mem1{
+    width: 426px;
+    height: 426px;
+}
+#mem2{
+    width: 405px;
+    height: 314px;
+}
+#mem3{
+    width: 401px;
+    height: 308px;
+}
+#mem4{
+    width: 405px;
+    height: 405px;
+}
+.footer{
+    background-color: black;
+    padding: 37px 35px;
+}
+.footer__text{
+    font-family: 'JustMe', sans-serif;
+    color: white;
+    text-align: center;
+    font-size: 30px;
+}
+@media (min-width: 992px){
+    .max418{
+        max-width: 418px;
+    }
+    .max408{
+        max-width: 408px;
+        margin-left: 60px;
+    }
+    .max349{
+        max-width: 349px;
+        text-align: center;
+    }
+    .max306{
+        max-width: 306px;
+    }
+    .intro__logo{
+        text-align: start;
+        margin-bottom: 0;
+    }
+    .intro__button-wrapper{
+        margin-left: 29px;
+        width: fit-content;
+    }
+    .intro__navigation{
+        justify-content: end;
+        padding-top: 44px;
+        margin-bottom: 114px;
+    }
+    .intro__link{
+        margin-left: 48px;
+        width: fit-content;
+    }
+    .logo__wall-of{
+        display: inline ;
+    }
+    .main__title{
+        margin-left: 62px;
+    }
+    .title__title{
+        font-size: 144px;
+        line-height: 215px;
+    }
+    .title__subtitle{
+        display: block;
+    }
+    .intro__main{
+        margin-bottom: 26px;
+    }
+    .main__youtube{
+        margin-left: 165px;
+        width: 215px;
+        height: 169px;
+    }
+    .intro__icon{
+        width: 61px;
+        height: 61px;
+        margin-left: 90px;
+    }
+
+    .intro__rectangle{
+        max-width: 602px;
+    }
+
+    .intro__man{
+        bottom: 0;
+        right: 0;
+        width: 474px;
+        height: 474px;
+        border-radius: 0;
+    }
+    .description__image{
+        width: 310px;
+        height: 310px;
+        margin-top: 74px;
+    }
+    .description__image img{
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 288px;
+        height: 293px;
+    }
+    .description__info{
+        margin-left: 83px;
+    }
+    .description__title{
+        font-size: 83px;
+        line-height: 124.33px;
+    }
+    .description__text{
+        font-size: 36px;
+        line-height: 36px;
+        margin-bottom: 150px;
+    }
+    .instructions{
+        padding: 0;
+    }
+    .instructions__title{
+        text-align: left;
+        font-size: 99px;
+        line-height: 148px;
+    }
+
+    .instruction__item.center{
+        margin: 0 auto;
+        max-width: 349px;
+        text-align: center;
+        position: relative;
+        right: 17px;
+        margin-top: 0;
+        margin-bottom: 54px;
+    }
+    
+    .item__title{
+        font-size: 44px;
+        line-height: 66px;
+        text-align: left;
+        margin-bottom: 0;
+    }
+    .instructions__cash{
+        
+    }
+    .instructions__img{
+        transform: translate(150px,-26px);
+        width: 378px;
+        height: 219px;
+    }
+    #mem1{
+        width: 1305px;
+        height: 1305px;
+    }
+    #mem4{
+        width: 1300px;
+        height: 1300px;
+    }
+    #mem2, #mem3{
+        margin-bottom: 78px;
+        width: 623px;
+        height: 482px;
+    }
+    .footer{
+        padding: 56px 70px;
+    }
+    .footer__text{
+        font-size: 44px;
+    }
+}
